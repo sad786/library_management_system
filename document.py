@@ -1,7 +1,10 @@
 """"
 Here is the details about this Library Mangement System App
 
-1. All the database creation functionality is in data_model.py
+Authentication Feature and other flask feature, I have taken help from internet as I was less aware I have learned about them 
+All the code I have written by myself 
+
+1. All the database creation functionality is in models.py
     1. Database name is library 
     2. There are 4 Tables in library database
     3. a. Users table include columns id which autoincrement means it will be set up by database itself when user
@@ -14,6 +17,8 @@ Here is the details about this Library Mangement System App
     5. Third table is borrow_reqest which having the details about who borrwed the book and their start date and end date
     6. Fourth table is borrow_history which will have details of the book taken by each user
 
+
+1. a There are two html file named index.html and user.html for homepage and user page
 
 2. Main File is app.py 
     from this file app will start and user will have an option to enter their login details
@@ -31,6 +36,10 @@ Here is the details about this Library Mangement System App
     2. Request a book
     3. view borrow history
 
-5 ....
+5. Authorization related funcationlity is in the file auth.py
+6. All the configuration related statments are written in config.py
+7. Admin.py file is responsible to generate Admin related funcationlity and it routes admin_routes.py for other queries
+8. User.py file is responsible to generate User related funcationality and it routes user_routes.py for user quieries
+9. All the python framework requirement is written in requirement.txt file
 
 """
