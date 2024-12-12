@@ -15,7 +15,7 @@ Here is the details about this Library Mangement System App
     6. Fourth table is borrow_history which will have details of the book taken by each user
 
 
-2. Main File is library.py 
+2. Main File is app.py 
     from this file app will start and user will have an option to enter their login details
     then detabase will check if the user is admin or simple user with details must be correct
     then corresponding feature will appear for admin or user
